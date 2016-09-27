@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^clockm\.in
+RewriteRule (.*) http://www.clockm.in/$1 [R=301,L]
